@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="101px" viewBox="0 0 100 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fashion@1x</title>
+    <defs>
+        <linearGradient x1="99.3351427%" y1="0.698959244%" x2="24.8415332%" y2="79.0135071%" id="linearGradient-1">
+            <stop stop-color="#F3F625" offset="0%"></stop>
+            <stop stop-color="#A4FF8A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="10.-Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Color-Style-Guide" transform="translate(-358.000000, -1932.000000)" fill="url(#linearGradient-1)">
+            <rect id="fashion" x="358" y="1932.5" width="100" height="100"></rect>
+        </g>
+    </g>
+</svg>

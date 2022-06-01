@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="32px" viewBox="0 0 64 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape@1x</title>
+    <defs>
+        <linearGradient x1="100%" y1="37.5%" x2="4.87896365%" y2="62.5%" id="linearGradient-1">
+            <stop stop-color="#07C400" offset="0%"></stop>
+            <stop stop-color="#84F7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m/header-blog/large-featured" transform="translate(-32.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <path d="M32,32 L64,3.33955086e-13 L96,3.37507799e-13 L64,32 L32,32 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

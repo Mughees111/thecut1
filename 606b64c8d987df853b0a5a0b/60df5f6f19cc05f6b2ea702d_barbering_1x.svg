@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Health@1x</title>
+    <defs>
+        <linearGradient x1="100%" y1="0.98519753%" x2="4.87896365%" y2="99.0148025%" id="linearGradient-1">
+            <stop stop-color="#7EB7FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="52.3177167%"></stop>
+            <stop stop-color="#FF5A54" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="10.-Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Color-Style-Guide" transform="translate(-1053.000000, -2182.000000)" fill="url(#linearGradient-1)">
+            <rect id="Health" x="1053" y="2182.5" width="101" height="100"></rect>
+        </g>
+    </g>
+</svg>

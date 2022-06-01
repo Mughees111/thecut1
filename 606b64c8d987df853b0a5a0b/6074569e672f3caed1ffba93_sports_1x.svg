@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="101px" viewBox="0 0 100 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sports@1x</title>
+    <defs>
+        <linearGradient x1="75.005%" y1="6.69%" x2="24.995%" y2="93.31%" id="linearGradient-1">
+            <stop stop-color="#FF5B9D" offset="0%"></stop>
+            <stop stop-color="#DDC1FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="10.-Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Color-Style-Guide" transform="translate(-636.000000, -1932.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <rect id="sports" x="636" y="1932.5" width="100" height="100"></rect>
+        </g>
+    </g>
+</svg>

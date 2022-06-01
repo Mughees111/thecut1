@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="5px" viewBox="0 0 1440 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Gradient@1x</title>
+    <defs>
+        <linearGradient x1="100%" y1="49.9996142%" x2="0%" y2="50.0003858%" id="linearGradient-1">
+            <stop stop-color="#2B0096" offset="0%"></stop>
+            <stop stop-color="#E9649B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="50.-Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="50.15-Desktop" transform="translate(0.000000, -723.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-2" transform="translate(0.000000, 590.450492)">
+                <g id="Group-8" transform="translate(0.000000, 0.000000)">
+                    <g id="Group-Copy" transform="translate(0.000000, 48.000000)">
+                        <rect id="Gradient" x="0" y="85" width="1440" height="4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

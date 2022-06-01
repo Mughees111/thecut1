@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="810px" height="5px" viewBox="0 0 810 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Gradient@1x</title>
+    <defs>
+        <linearGradient x1="100%" y1="49.9987807%" x2="4.87896365%" y2="50.0012193%" id="linearGradient-1">
+            <stop stop-color="#07C400" offset="0%"></stop>
+            <stop stop-color="#84F7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="50.-Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="50.15-Desktop" transform="translate(0.000000, -422.000000)" fill="url(#linearGradient-1)">
+            <g id="Featured" transform="translate(0.000000, 229.450492)">
+                <g id="m/blog-post/large" transform="translate(0.000000, 54.000000)">
+                    <rect id="Gradient" x="0" y="139.5" width="810" height="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
