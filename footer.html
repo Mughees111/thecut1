@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .footerLinks {
-            color: rgba(255, 255, 255,0.6);
+            color: rgba(255, 255, 255, 0.6);
             /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
             font-weight: 500;
             font-size: 15px;
@@ -24,40 +24,118 @@
             padding-top: 20px;
             padding-bottom: 20px; */
         }
+
         .divider {
-            height: 1px;background-color: rgba(255,255,255,0.2) ;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.2);
             margin-top: 20px;
             margin-bottom: 25px;
+        }
+
+        .display1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.6);
+            margin-left: 30px;
+        }
+
+        .footer_img {
+            width: 130px
+        }
+
+        .display2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .display2a {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        @media (max-width:650px) {
+            #display1 {
+                flex-direction: column;
+                height: 80px;
+                width: 100%;
+            }
+
+            #copyright {
+                font-size: 14px;
+                margin-top: 5px;
+            }
+
+            #footer_img {
+                width: 100px
+            }
+
+            #footerLinks {
+                font-weight: 500;
+                font-size: 14px;
+                margin-left: 15px;
+                text-decoration: none;
+            }
+
+            #display2 {
+                display: flex;
+                flex-direction: column;
+                /* align-items: center; */
+                /* justify-content: space-between; */
+                width: 100%;
+                margin-top: 10px;
+            }
+
+            #display2a {
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                /* margin-left: 10px; */
+            }
         }
     </style>
 </head>
 
 <div class="containerClass">
-    <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;" >
-        <div style="flex-direction: row;display: flex;">
+    <div class="display1" id="display1">
+        <div style="flex-direction: row;display: flex;width: 100%;">
             <!-- <div> <a class="footerLinks" href="#"> About us</a></div> -->
-            <div> <a class="footerLinks" href="faqs.html"> FAQ</a></div>
-            <div> <a class="footerLinks" href="#"> Privacy Policy</a></div>
-            <div> <a class="footerLinks" href="#"> Terms of services</a></div>
-            <div> <a class="footerLinks" href="contactus.html"> Contact us</a></div>
+            <div> <a class="footerLinks" id="footerLinks" style="margin-left: -3px;" href="faqs.html"> FAQ</a></div>
+            <div> <a class="footerLinks" id="footerLinks" href="#"> Privacy Policy</a></div>
+            <div> <a class="footerLinks" id="footerLinks" href="#"> Terms of services</a></div>
+            <div> <a class="footerLinks" id="footerLinks" href="contactus.html"> Contact us</a></div>
         </div>
         <div style="flex-direction: row;display: flex;justify-content: flex-end;">
-            <a class="footerLinks" href="#"><img style="width: 110px;height: 35px; " src="./images/download_android.png"></a>
-            <a class="footerLinks" href="#"><img style="width: 110px;margin-left: 5px;height: 35px; " src="./images/download_iphone.png"></a>
+            <a class="footerLinks" href="#"><img style="width: 110px;height: 35px; "
+                    src="./images/download_android.png"></a>
+            <a class="footerLinks" href="#"><img style="width: 110px;margin-left: 5px;height: 35px; "
+                    src="./images/download_iphone.png"></a>
         </div>
     </div>
     <div class="divider"></div>
 
-    <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;margin-top: 10px;" >
-        <div style="flex-direction: row;display: flex;align-items: center;margin-left: 10px;">
-            <img  style="opacity: 0.7;" src="./img/logo.png" width="130" alt="" /></a>
-            <div class="copyright" style="color:rgba(255, 255, 255,0.6);margin-left: 30px;" >© 2022 Couaff Inc. All Rights Reserved.</div>
+    <div class="display2" id="display2">
+        <div class="display2a" id="display2a">
+            <img style="opacity: 0.7;" src="./img/logo.png" class="footer_img" id="footer_img" alt="" /></a>
+            <div class="copyright" id="copyright">© 2022 Couaff Inc. All Rights Reserved.</div>
         </div>
         <div style="flex-direction: row;display: flex;justify-content: flex-end;">
             <div class="footer-right-column w-col w-col-6">
-                <a target="_blank" href="https://www.facebook.com/thehaircutapp" class="footer-social-link facebook-icon"></a>
+                <a target="_blank" href="https://www.facebook.com/Couaff" class="footer-social-link facebook-icon"></a>
                 <!-- <a target="_blank" href="https://twitter.com/thecutapp_" class="footer-social-link twitter-icon"></a> -->
-                <a target="_blank" href="https://www.instagram.com/thecutapp/"class="footer-social-link instagram-icon"></a>
+                <a target="_blank" href="https://www.instagram.com/Couaff/"
+                    class="footer-social-link instagram-icon"></a>
             </div>
         </div>
     </div>

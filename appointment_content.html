@@ -1,14 +1,27 @@
-<div>
-    <div style="background-color: black;width: 100%;padding-left: 100px; height: 550px;display: flex;flex-direction: row;align-items: center;margin-top: 60px;padding-top: 25px;padding-bottom: 25px;">
-        
-        <div style="display: flex;align-items: center;flex-direction: column;width: 20%;">
+<style>
+        .client_div {
+            display: flex;align-items: flex-start;flex-direction: column;width: 30%;
+        }
+        .barberDiv {
+            display: flex;align-items: flex-start;flex-direction: column;width: 25%;
+        }
+        @media (max-width:700px) {
+            #client_div{
+                display: flex;align-items: flex-start;flex-direction: column;width: 95%; align-self: center;
+            }
+            #barberDiv {
+                display: flex;align-items: flex-start;flex-direction: column;width: 95%; align-self: center;
+            }
+        }
+</style>
+<div class="container1" id="container1" >
+        <div class="barberDiv"  id="barberDiv" >
             <h2 style="color: white">BARBERS</h2>
             <p style="color: rgba(255, 255, 255, 0.6);" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        <img style="height: 98%; margin-top: 10px;margin-left: 20px;" src="./images/showCase1.png" >
-        <img style="height: 98%; margin-top: 10px;margin-left: 0px; opacity: 0.5; " src="./images/appointment.png" >
-       
-        <div style="display: flex; flex-direction: column;margin-left:40px;width: 30%;">
+        <img class="braider_img" id="braider_img"  src="./images/braiders.png" >
+        <img class="braider_img" id="braider_img"   src="./images/appointment.png" >
+        <div class="client_div" id="client_div" >
             <div style="color: white;font-size: 24px;font-weight: bolder;margin-top: 30px;">APPOINTMENTS</div>
             <div style="color: white;font-size: 20px;font-weight: bolder;margin-top: 30px;">MANUALLY INPUT APPOINTMENTS</div>
             <p style="color:white; margin-top: 10px;font-size: 12px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
@@ -20,6 +33,4 @@
             <p style="color:white; margin-top: 10px;font-size: 12px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
             
         </div>
-
     </div>
-</div>
