@@ -1,9 +1,16 @@
 <style>
         .client_div {
-            display: flex;align-items: flex-start;flex-direction: column;width: 30%;
+            display: flex;align-items: flex-start;flex-direction: column;width: 35%;
         }
         .barberDiv {
-            display: flex;align-items: flex-start;flex-direction: column;width: 25%;
+            display: flex;flex-direction: column;width: 30%;
+        }
+        .overRideContainer {
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .braider_img_a {
+            width: 18%;margin-left: -15px;
         }
         @media (max-width:700px) {
             #client_div{
@@ -12,16 +19,22 @@
             #barberDiv {
                 display: flex;align-items: flex-start;flex-direction: column;width: 95%; align-self: center;
             }
+            #braider_img_a {
+            height: 620px;width: 25%;margin-left: -15px;display: none;
+        }
+        #overRideContainer {
+            padding-top: 20px
+        }
         }
 </style>
-<div class="container1" id="container1" >
+<div class="container1 overRideContainer" id="container1" >
         <div class="barberDiv"  id="barberDiv" >
-            <h2 style="color: white">BARBERS</h2>
-            <p style="color: rgba(255, 255, 255, 0.6);" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2 style="color: white;margin: auto;">BUSINESS</h2>
+            <p style="color: rgba(255, 255, 255, 0.6);display: flex;text-align: center;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
         </div>
-        <img class="braider_img" id="braider_img"  src="./images/braiders.png" >
-        <img class="braider_img" id="braider_img"   src="./images/appointment.png" >
-        <div class="client_div" id="client_div" >
+        <img class="braider_img_a" id="braider_img_a" style="margin-left:10px"   src="./images/salon.jpeg" >
+        <img class="braider_img_a" id="braider_img_a" style="margin-left:5px"    src="./images/appointment.png" >
+        <div class="client_div" id="client_div" style="margin-left: 30px;" >
             <div style="color: white;font-size: 24px;font-weight: bolder;margin-top: 30px;">APPOINTMENTS</div>
             <div style="color: white;font-size: 20px;font-weight: bolder;margin-top: 30px;">MANUALLY INPUT APPOINTMENTS</div>
             <p style="color:white; margin-top: 10px;font-size: 12px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
@@ -30,7 +43,6 @@
             <div style="color: white;font-size: 18px;font-weight: bolder;margin-top: 20px;">IN-APP PAYMENTS</div>
             <p style="color:white; margin-top: 10px;font-size: 12px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
             <div style="color: white;font-size: 18px;font-weight: bolder;margin-top: 20px;">COMMENTS </div>
-            <p style="color:white; margin-top: 10px;font-size: 12px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
-            
+            <p style="color:white; margin-top: 10px;font-size: 12px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>  
         </div>
     </div>
